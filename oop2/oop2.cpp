@@ -34,3 +34,18 @@ public:
 
 	}
 };
+
+int main() {
+	Mahasiswa mhs;
+	MataKuliah mk;
+
+	cout << "\nMasukkan NIM mahasiswa= ";
+	cin >> mhs.nim;
+	cout << "\nMasukkan nama= ";
+	cin >> mhs.nama;
+
+	mk.inputMK();
+	mhs.tampil();
+	cout << endl;
+	mk.tampilMK();
+}
